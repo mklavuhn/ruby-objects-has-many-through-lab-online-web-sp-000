@@ -22,6 +22,6 @@ class Doctor
   end
   
   def patients 
-    appointment
+    appointment.map
   
 end
