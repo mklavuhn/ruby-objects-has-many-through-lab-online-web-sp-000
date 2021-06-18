@@ -14,7 +14,7 @@ class Genre
   end
   
   def songs
-    songs.collect {|song| }
+    songs.collect {|song| song.genre }
   end
     
   
