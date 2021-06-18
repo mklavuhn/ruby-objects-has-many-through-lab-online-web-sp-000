@@ -14,8 +14,7 @@ class Artist
   end
   
   def songs
-    new_song = song.name
-    @songs << new_song
+    Song.all.select {|song|
   end
   
     
